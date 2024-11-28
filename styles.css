@@ -2,20 +2,21 @@ body{
     font-family: Roboto;
     display: flex;
     flex-direction: column;
-    
+    margin: 0;
 }
 
 .headercontainer{
     background-color: #1F2937;
     padding: 0 15% 0 15%;
     color: #F9FAF8;
+
 }
 
 .header{
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
     align-items: center;
 }
 
@@ -36,11 +37,13 @@ a{
 
 .hero{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 120px;
+
 }
 
 .herotext{
     flex: 1;
+    padding-right: 50px;
 }
 
 .herotext h1{
@@ -55,7 +58,7 @@ a{
     font-weight: normal;
     color: #E5E7EB;
     margin-bottom: 10px;
-    padding-right: 70px;
+    padding-right: 50px;
 }
 
 .heroimage{
