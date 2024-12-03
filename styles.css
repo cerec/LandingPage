@@ -105,6 +105,7 @@ button:hover{
     justify-content: center;
     gap: 52px;
     margin-bottom: 120px;
+    flex-wrap: wrap;
 }
 
 h2{
