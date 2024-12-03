@@ -28,6 +28,10 @@ body{
     display: flex;
     gap: 15px;
 }
+.links > a:hover{
+    color: white;
+    text-decoration: underline;
+}
 
 a{
     text-decoration: none;
@@ -63,7 +67,7 @@ a{
 .heroimage{
     display: flex;
     flex: 1;
-    background-color: grey;
+    background-color: gray;
     justify-content: center;
     align-items: center;
 }
@@ -76,6 +80,11 @@ button{
     background-color: #3882F6;
     padding: 10px 40px 10px 40px;
     border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color:#5082F6
 }
 
 .infocontainer{
