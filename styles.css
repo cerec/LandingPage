@@ -1,5 +1,5 @@
 body{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
     margin: 0;
@@ -128,4 +128,32 @@ h2{
 .infotext{
     font-size: 18px;
     color: grey;
+}
+
+.quotecontainer{
+    margin: 0 0 120px 0;
+    background-color: #E5E7EB;
+    padding: 120px 0 120px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote{
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    max-width: 795px;
+    font-weight: 300;
+}
+.thor{
+    display: flex;
+    align-self: flex-end;
+    margin-right: 20px;
+    font-weight: 900;
+    font-size: 25px;
+    font-style: normal;
 }
