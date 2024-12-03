@@ -49,6 +49,7 @@ a{
 .hero{
     display: flex;
     margin-bottom: 120px;
+    width: 100%;
     max-width: 1000px;
 }
 
@@ -171,15 +172,28 @@ h2{
     color: white;
     background-color: #3882F6;;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
     max-width: 1000px;
     border-radius: 10px;
     padding: 60px 0 50px 0;
+    margin-bottom: 120px;
 }
 
 .borderwhite{
     border-color: white;
     border-style: solid;
+}
+
+.footer{
+    background-color: #1F2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: #E5E7EB;
+    height: 100px;
 }
