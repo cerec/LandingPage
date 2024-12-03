@@ -3,12 +3,17 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    align-items: center;
 }
 
 .headercontainer{
     background-color: #1F2937;
-    padding: 0 15% 0 15%;
+    /* padding: 0 15% 0 15%; */
     color: #F9FAF8;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    width: 100%;
 }
 
 .header{
@@ -16,6 +21,9 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 120px;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
     align-items: center;
 }
 
@@ -41,12 +49,11 @@ a{
 .hero{
     display: flex;
     margin-bottom: 120px;
-
+    max-width: 1000px;
 }
 
 .herotext{
     flex: 1;
-    padding-right: 50px;
 }
 
 .herotext h1{
@@ -55,7 +62,7 @@ a{
     font-weight: 900;
 }
 
-.herotext h3{
+h3{
     font-size: 18px;
     margin: 0;
     font-weight: normal;
@@ -89,6 +96,7 @@ button:hover{
 
 .infocontainer{
     text-align: center;
+    width: 100%;
 }
 
 .itemcontainer{
@@ -137,6 +145,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .quote{
@@ -156,4 +165,21 @@ h2{
     font-weight: 900;
     font-size: 25px;
     font-style: normal;
+}
+
+.signupcontainer{
+    color: white;
+    background-color: #3882F6;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    border-radius: 10px;
+    padding: 60px 0 50px 0;
+}
+
+.borderwhite{
+    border-color: white;
+    border-style: solid;
 }
